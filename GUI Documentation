@@ -1,0 +1,43 @@
+Graphical User Interface:
+
+
+
+
+
+
+
+
+
+Home Panel:
+This panel is main window that opens when the program runs. 
+It displays the current running patient queue using a Jtable. 
+It contains two buttons, one to add new patients and one to search patients that are already in the system. 
+
+
+Add Patient Panel:
+This panel is displayed after the add patient button is clicked from the home panel. 
+It contains the basic patient information textfields that need to be entered to add the patient. 
+It also contains a submit button that adds the patient into the database and will reflect in the current patient queue in the home panel. 
+The necessary information to add a patient is label above each respective textfield; for example, the labels are first name, last name, address, height, weight, and date of birth.
+There is also a back to home button that when clicked the window is changed from add panel to home panel.
+Submit button and home button are activated through the ActionListeners.
+
+
+Search Patient Panel:
+In this panel the user can search for a specific patient by either entering the patient’s personal information such as name and date of birth or the user can enter the desired patient’s patient ID. 
+The panel contains a search button that when clicked searches the database for the patient and displays the result of the search inside the result field Jtable. 
+ There is also a back to home button that when clicked the window is changed from add panel to home panel.
+If the patient entered into the search entry is not found in the database, then another dialog box will pop up to declare that the patient was not found. 
+
+
+Logo:
+We used various logos to make the appearance more professional.
+First we searched for the desired logo such as a home logo for the back to home button.
+Then we saved the logo in a file inside the package of the GUI program. 
+Inside the hard code, we set the image of the logo to the desired location. For example, the back to home button logo was set as shown below. 
+
+
+
+Layout:
+We used a card layout for the JFrame so that each individual panel would act as cards; thus, enforcing only one panel to be displayed at specific times. 
+In addition, we applied an absolute layout to each individual panel.
